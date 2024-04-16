@@ -2,7 +2,7 @@
 
 ## Prerequisites
 Before proceeding, make sure you have the following dependencies installed on your system:
-- Node.js version 20 (with npm)
+- Node.js version 20 (https://nodejs.org/en/download)
 
 ## Step-by-Step Installation
 
@@ -11,7 +11,7 @@ Before proceeding, make sure you have the following dependencies installed on yo
 https://github.com/OwlFlight-Dev/team-task-client.git
 ```
 
-### 2. Instal Dependencies
+### 2. Install Dependencies
 ```bash
 npm install
 ```
