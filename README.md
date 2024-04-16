@@ -8,7 +8,7 @@ Before proceeding, make sure you have the following dependencies installed on yo
 
 ### 1. Clone the Repository
 ```bash
-git clone git@github.com:OwlFlight-Dev/team-task-client.git
+https://github.com/OwlFlight-Dev/team-task-client.git
 ```
 
 ### 2. Instal Dependencies
