@@ -116,7 +116,6 @@ export default function MyTaskTable() {
         <Table>
           <TableHead>
             <TableRow>
-              <TableCell></TableCell>
               <TableCell>Project Id</TableCell>
               <TableCell>Title</TableCell>
               <TableCell>Description</TableCell>
