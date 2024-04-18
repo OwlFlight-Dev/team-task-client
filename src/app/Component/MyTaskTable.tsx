@@ -2,6 +2,7 @@ import UpdateIcon from '@mui/icons-material/Update';
 import { Autocomplete, Box, Button, Checkbox, Dialog, DialogActions, DialogContent, DialogTitle, Divider, Paper, Stack, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, TextField, Typography } from "@mui/material";
 import React, { useEffect, useState } from 'react';
 import StatusMapping from './StatusMapping';
+import Image from 'next/image';
 
 interface TaskInterface {
   id: number;
@@ -140,7 +141,9 @@ export default function MyTaskTable() {
                   <TableCell>{task.project_id}</TableCell>
                   <TableCell>{task.title}</TableCell>
                   <TableCell>{task.description}</TableCell>
-                  <TableCell>{task.image_attachment}</TableCell>
+                  <TableCell>
+                    {<Image src={`data:image/jpeg;base64,${task.image_attachment}`} alt="image attachment" width={100} height={100}/>}
+                    </TableCell>
                   <TableCell>{task.author}</TableCell>
                   <TableCell>{task.assignee}</TableCell>
                   <TableCell>
